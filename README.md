@@ -12,9 +12,6 @@
 <p>./ADI.sh</p>
 <p>veya</p>
 <p>bash ./ADI.sh</p>
-#
-#
-#
-#
+
 # Desteklenen Sistemler
 <p>Centos 7</p>
