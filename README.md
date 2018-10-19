@@ -1,6 +1,6 @@
-# Auto Database Installer
+# Auto Database Installer (Otomatik Database Yukleme)
 <h3>//============================</h3>
-<p>Otomatik Database Yukleme</p>
+<p>Kurulum</p>
 <p>ADI.sh isimli dosyayi rAthena sql-files dizinine kopyaliyoruz</p>
 <h3>//============================</h3>
 
@@ -12,3 +12,9 @@
 <p>./ADI.sh</p>
 <p>veya</p>
 <p>bash ./ADI.sh</p>
+#
+#
+#
+#
+# Desteklenen Sistemler
+<p>Centos 7</p>
