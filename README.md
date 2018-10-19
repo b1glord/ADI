@@ -15,3 +15,4 @@
 
 # Desteklenen Sistemler
 <p>Centos 7</p>
+<p>Debian 9</p>
