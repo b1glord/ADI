@@ -10,3 +10,5 @@
 <p>wget https://raw.githubusercontent.com/Sekiryuutei/ADI/master/ADI.sh</p>
 <p>chmod +x ADI.sh</p>
 <p>./ADI.sh</p>
+<p>veya</p>
+<p>bash ./ADI.sh</p>
