@@ -90,8 +90,8 @@ elif [[ "$logcheck" == "N" ]]; then
         echo "Done."
         read -p "Are you going to use pre-re or re? (Please enter either 're' or 'pre-re')  " base
 
-        # If users enters Y.
-elif [[ "$logcheck" == "Y" ]]; then
+        # If users enters y.
+elif [[ "$logcheck" == "y" ]]; then
         read -p "Please enter your log database name: " logdb
 
         # Check to make sure logdb is not a empty value.
