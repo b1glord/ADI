@@ -8,5 +8,5 @@
 <p>wget https://raw.githubusercontent.com/Sekiryuutei/ADI/master/customaccount.sql</p>
 <p>wget https://raw.githubusercontent.com/Sekiryuutei/ADI/master/custom.sql</p>
 <p>wget https://raw.githubusercontent.com/Sekiryuutei/ADI/master/ADI.sh</p>
-<p>chmod +x dbinstaller.sh</p>
+<p>chmod +x ADI.sh</p>
 <p>./ADI.sh</p>
