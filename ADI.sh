@@ -74,16 +74,16 @@ if [[ -z "$database" ]]; then
         exit
         # This portion checks if user is going to use a seperate database for logs if not it will continue with the installation of the database.
 elif [[ -n "$database" ]]; then
-        read -p "Are you going to use a seperate database for logs? (Y/n) " logcheck
+        read -p "Are you going to use a seperate database for logs? (y/N) " logcheck
 fi
 
 # This makes sure Y or n is entered.
-if [[ -z "$logcheck" ]] && [[ "$logcheck" != "Y" ]] && [[ "$logcheck" != "n" ]];  then
+if [[ -z "$logcheck" ]] && [[ "$logcheck" != "y" ]] && [[ "$logcheck" != "N" ]];  then
         echo ""
-        echo "ERROR: You did not enter Y or n."
+        echo "ERROR: You did not enter y or N."
         exit
         # If users enter n.
-elif [[ "$logcheck" == "n" ]]; then
+elif [[ "$logcheck" == "N" ]]; then
         # Inserting logs into database before anything else
         echo "Inserting logs.sql.."
         mysql -u "$username" -h"$hostname" -p"$password" "$database" < sql-files/logs.sql
