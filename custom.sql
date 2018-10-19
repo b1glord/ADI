@@ -1,4 +1,5 @@
 --- start dota pvp sql files 
+--USE ragnarok;    (Gerekirse Kullanacagım)
 --
 -- Table structure for table `pvpladder`
 --
