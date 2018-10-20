@@ -80,7 +80,7 @@ fi
 # This makes sure Y or n is entered.
 if [[ -z "$logcheck" ]] && [[ "$logcheck" != "Y" ]] && [[ "$logcheck" != "n" ]];  then
         echo ""
-        echo "ERROR: You did not enter Y or N."
+        echo "ERROR: You did not enter Y or n."
         exit
         # If users enter n.
 elif [[ "$logcheck" == "n" ]]; then
