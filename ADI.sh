@@ -46,7 +46,7 @@ if [[ -n "$password2" ]] && [[ "$password" == "$password2" ]]; then
         echo ""
         echo "Passwords match continuing..."
         echo ""
-        read -p "Please provide us your hostname for MySQL (default is localhost): " localhost
+        read -p "Please provide us your hostname for MySQL (default is localhost): " hostname
 
         # Checks if Passwords do not match
 elif [[ -n "$password2" ]] && [[ "$password" != "$password2" ]]; then
