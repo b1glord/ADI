@@ -26,7 +26,7 @@ CREATE TABLE IF NOT EXISTS `ownladder` (
 ) engine = MyISAM; 
 --- End Dota pvp Sql Files
 
-CREATE TABLE  `vote_point` (
+CREATE TABLE IF NOT EXISTS  `vote_point` (
  `account_id` int( 11 ) NOT NULL DEFAULT  '0',
  `point` int( 11 ) NOT NULL DEFAULT  '0',
  `last_vote1` int( 11 ) NOT NULL DEFAULT  '0',
@@ -36,4 +36,13 @@ CREATE TABLE  `vote_point` (
  `last_vote5` int( 11 ) NOT NULL DEFAULT  '0',
  `date` TEXT NOT NULL ,
 PRIMARY KEY (  `account_id` )
+) engine = MyISAM;
+
+
+CREATE TABLE IF NOT EXISTS `ragsrvinfo` (
+  `index` int(11) NOT NULL DEFAULT '0',
+  `name` varchar(255) NOT NULL DEFAULT '',
+  `exp` int(11) unsigned NOT NULL DEFAULT '0',
+  `jexp` int(11) unsigned NOT NULL DEFAULT '0',
+  `drop` int(11) unsigned NOT NULL DEFAULT '0'
 ) engine = MyISAM;
