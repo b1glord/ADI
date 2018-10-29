@@ -4,7 +4,7 @@
 <p>ADI.sh isimli dosyayi rAthena sql-files dizinine kopyaliyoruz</p>
 <h3>//============================</h3>
 
-<p>cd rAthena/</p>
+<p>cd rAthena/sql-files</p>
 <p>wget https://raw.githubusercontent.com/b1glord/ADI/master/customaccount.sql</p>
 <p>wget https://raw.githubusercontent.com/b1glord/ADI/master/custom.sql</p>
 <p>wget https://raw.githubusercontent.com/b1glord/ADI/master/ADI.sh</p>
