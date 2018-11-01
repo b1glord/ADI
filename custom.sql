@@ -39,10 +39,14 @@ PRIMARY KEY (  `account_id` )
 ) engine = MyISAM;
 
 
+DROP TABLE IF EXISTS `ragsrvinfo`;
 CREATE TABLE IF NOT EXISTS `ragsrvinfo` (
-  `index` int(11) NOT NULL DEFAULT '0',
-  `name` varchar(255) NOT NULL DEFAULT '',
-  `exp` int(11) unsigned NOT NULL DEFAULT '0',
-  `jexp` int(11) unsigned NOT NULL DEFAULT '0',
-  `drop` int(11) unsigned NOT NULL DEFAULT '0'
-) engine = MyISAM;
+  `index` int(11) NOT NULL default '0',
+  `name` varchar(255) NOT NULL default '',
+  `exp` int(11) unsigned NOT NULL default '0',
+  `jexp` int(11) unsigned NOT NULL default '0',
+  `drop` int(11) unsigned NOT NULL default '0',
+  `agit_status` tinyint(1) unsigned NOT NULL default '0',
+  `motd` varchar(255) NOT NULL default '',
+  KEY `name` (`name`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
