@@ -5,9 +5,7 @@
 
 
 --- start dota pvp sql files 
-
 -- Table structure for table `pvpladder`
---
 
 CREATE TABLE IF NOT EXISTS `pvpladder` (
   char_id int(11) not null default '0' primary key,
