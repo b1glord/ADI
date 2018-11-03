@@ -146,9 +146,23 @@ CREATE TABLE `dqs_shop` (
   `item_id` int(10) NOT NULL,
   `item_price` int(10) NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
-	
-  
-  
+
+-- == Structure of mvp_ranker == --
+CREATE TABLE `mvp_rank` (
+ `char_id` int(11) unsigned NOT NULL,
+ `char_name` varchar(30) NOT NULL default 'Unknown',
+ `mvp_points` int(11) default '0',
+PRIMARY KEY ( `char_id` ),
+KEY (`mvp_points`)
+ ) ENGINE=MyISAM;
+ 
+CREATE TABLE `mvp_goal` (
+ `mvp_id` smallint(5) unsigned NOT NULL,
+ `goal_points` int(11) default '4',
+ `goal_needed` int(11) default '4',
+ `mvp_card` smallint(5) unsigned NOT NULL,
+PRIMARY KEY ( `mvp_id` )
+ ) ENGINE=InnoDB;
 
 
 
