@@ -12,6 +12,7 @@ echo ""
 # Then check if the username field is blank
 # if blank it will error out
 read -p "Please enter your MySQL username: " username
+ragnarok
 if [[ -z "$username" ]]; then
         echo "ERROR: That username is invalid or you didn't enter a value."
         exit
