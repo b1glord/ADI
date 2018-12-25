@@ -4,7 +4,7 @@ echo ""
 echo "Welcome to the Hercules/rAthena database installer"
 echo "This script will install your database for you, without you having to do it manually."
 #echo ""
-#echo "This script was created by BigLorD of TitanRO (http://www.titanro.net) for the Hercules and rAthena community."
+#echo "This script was created by BigLorD (http://www.ankaragnarok.tk) for the Hercules and rAthena community."
 echo ""
 echo ""
 
