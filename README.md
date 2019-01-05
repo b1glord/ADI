@@ -1,7 +1,7 @@
 # Auto Database Installer (Otomatik Database Yukleme)
 
 ## Kurulum
-* ADI.sh isimli dosyayi rAthena sql-files dizinine kopyaliyoruz
+* #ADI.sh isimli dosyayi rAthena sql-files dizinine kopyaliyoruz
 
 
 * cd ~/rAthena/sql-files
