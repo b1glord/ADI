@@ -1,3 +1,6 @@
+/*   
+rathena/conf/groups.yml
+*/
 UPDATE `login` SET `userid` = 'chaos', `user_pass` = 'chaos' WHERE `login`.`account_id` = 1;
 INSERT INTO `login` (`account_id`, `userid`, `user_pass`, `sex`, `email`, `group_id`, `state`, `unban_time`, `expiration_time`, `logincount`, `lastlogin`, `last_ip`, `birthdate`, `character_slots`, `pincode`, `pincode_change`, `vip_time`, `old_group`) VALUES (2000000, 'loki', 'loki', 'S', 'a@b.com', '0', '0', '0', '0', '0', NULL, '', NULL, '0', '', '0', '0', '0');
 INSERT INTO `login` (`account_id`, `userid`, `user_pass`, `sex`, `email`, `group_id`, `state`, `unban_time`, `expiration_time`, `logincount`, `lastlogin`, `last_ip`, `birthdate`, `character_slots`, `pincode`, `pincode_change`, `vip_time`, `old_group`) VALUES (2000001, 'user1', '123456', 'M', 'a@b.com', '0', '0', '0', '0', '0', NULL, '', NULL, '0', '', '0', '0', '0');
