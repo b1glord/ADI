@@ -128,9 +128,25 @@ if [[ "$base" == "re" ]]; then
         mysql -u "$username" -h"$hostname" -p"$password" "$database" < main.sql
         echo "Done inserting main.sql..."
         echo ""
+        echo "Inserting web.sql..."
+        mysql -u "$username" -h"$hostname" -p"$password" "$database" < web.sql
+        echo "Done inserting web.sql..."
+        echo ""
         echo "Inserting item_db.sql..."
         mysql -u "$username" -h"$hostname" -p"$password" "$database" < item_db.sql
         echo "Done inserting item_db.sql."
+        echo ""
+        echo "Inserting item_db_equip.sql..."
+        mysql -u "$username" -h"$hostname" -p"$password" "$database" < item_db_equip.sql
+        echo "Done inserting item_db_equip.sql."
+        echo ""
+        echo "Inserting item_db_etc.sql..."
+        mysql -u "$username" -h"$hostname" -p"$password" "$database" < item_db_etc.sql
+        echo "Done inserting item_db_etc.sql."
+        echo ""
+        echo "Inserting item_db_usable.sql..."
+        mysql -u "$username" -h"$hostname" -p"$password" "$database" < item_db_usable.sql
+        echo "Done inserting item_db_usable.sql."
         echo ""
         echo "Inserting item_db2.sql..."
         mysql -u "$username" -h"$hostname" -p"$password" "$database" < item_db2.sql
@@ -156,10 +172,22 @@ if [[ "$base" == "re" ]]; then
         mysql -u "$username" -h"$hostname" -p"$password" "$database" < item_db_re.sql
         echo "Done inserting item_db_re.sql."
         echo ""
+        echo "Inserting item_db_re_equip.sql..."
+        mysql -u "$username" -h"$hostname" -p"$password" "$database" < item_db_re_equip.sql
+        echo "Done inserting item_db_re_equip.sql."
+        echo ""
+        echo "Inserting item_db_re_etc.sql..."
+        mysql -u "$username" -h"$hostname" -p"$password" "$database" < item_db_re_etc.sql
+        echo "Done inserting item_db_re_etc.sql."
+        echo ""
+        echo "Inserting item_db_re_usable.sql..."
+        mysql -u "$username" -h"$hostname" -p"$password" "$database" < item_db_re_usable.sql
+        echo "Done inserting item_db_re_usable.sql."
+        echo ""
         echo "Inserting item_db2_re.sql..."
         mysql -u "$username" -h"$hostname" -p"$password" "$database" < item_db2_re.sql
         echo "Done inserting item_db2_re.sql."
-        #echo ""
+        echo ""
         echo "Inserting mob_db_re.sql..."
         mysql -u "$username" -h"$hostname" -p"$password" "$database" < mob_db_re.sql
         echo "Done inserting mob_db_re.sql."
