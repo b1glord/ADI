@@ -244,6 +244,10 @@ if [[ "$base" == "pre-re" ]]; then
         mysql -u "$username" -h"$hostname" -p"$password" "$database" < main.sql
         echo "Done inserting main.sql.."
         echo ""
+        echo "Inserting web.sql..."
+        mysql -u "$username" -h"$hostname" -p"$password" "$database" < web.sql
+        echo "Done inserting web.sql.."
+        echo ""
         echo "Inserting item_db.sql..."
         mysql -u "$username" -h"$hostname" -p"$password" "$database" < item_db.sql
         echo "Done inserting item_db.sql."
