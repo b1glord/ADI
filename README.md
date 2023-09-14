@@ -8,7 +8,7 @@ wget https://raw.githubusercontent.com/b1glord/ADI/master/customaccount.sql
 wget https://raw.githubusercontent.com/b1glord/ADI/master/custom.sql
 wget https://raw.githubusercontent.com/b1glord/ADI/master/ADI.sh
 chmod +x ADI.sh
-./ADI.sh</p>
+./ADI.sh
 ```
 
 
