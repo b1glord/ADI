@@ -1,0 +1,38 @@
+//--------------------------------------------------------------
+//rAthena Map-Server Configuration File
+//--------------------------------------------------------------
+
+// Note: "Comments" are all text on the right side of a double slash "//"
+// Whatever text is commented will not be parsed by the servers, and serves
+// only as information/reference.
+
+//--------------------------------------------------------------
+//                     Configuration Info
+//--------------------------------------------------------------
+// Interserver communication passwords, set in account.txt (or equiv.)
+userid: chaos
+passwd: chaos
+
+// Character Server IP
+// The map server connects to the character server using this IP address.
+// NOTE: This is useful when you are running behind a firewall or are on
+// a machine with multiple interfaces.
+char_ip: 192.168.1.170
+
+
+// Character Server Port
+char_port: 6121
+
+// Map Server IP
+// The IP address which clients will use to connect.
+// Set this to what your server's public IP address is.
+map_ip: 192.168.1.170
+
+// Map Server Port
+map_port: 5121
+
+
+// Read map data from GATs and RSWs in GRF files or a data directory
+// as referenced by grf-files.txt rather than from the mapcache?
+use_grf: no
+
