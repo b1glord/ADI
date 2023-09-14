@@ -273,7 +273,7 @@ if [[ "$base" == "pre-re" ]]; then
         echo "Done inserting mob_skill_db2.sql."
         echo ""
         echo "customaccount.sql..."
-        mysql -u "$username" -h"$hostname" -p"$password" "$database" < customaccount.sql
+        -- mysql -u "$username" -h"$hostname" -p"$password" "$database" < customaccount.sql
         echo "Done inserting customaccount.sql."
         echo ""
         echo "custom.sql..."
