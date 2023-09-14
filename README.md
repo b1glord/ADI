@@ -19,6 +19,7 @@ chmod +x ADI.sh
 
 ### Download Conf Files
 ```
+rm -f ~/rAthena/conf/import-tmpl/*
 wget -nc https://raw.githubusercontent.com/b1glord/ADI/master/import-tmpl/atcommands.yml -P ~/rAthena/conf/import-tmpl
 wget -nc https://raw.githubusercontent.com/b1glord/ADI/master/import-tmpl/battle_conf.txt -P ~/rAthena/conf/import-tmpl
 wget -nc https://raw.githubusercontent.com/b1glord/ADI/master/import-tmpl/char_conf.txt -P ~/rAthena/conf/import-tmpl
